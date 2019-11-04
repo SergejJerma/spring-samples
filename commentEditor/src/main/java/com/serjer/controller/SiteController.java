@@ -37,7 +37,7 @@ public class SiteController {
 //				dateFormat, false));
 //	}
 	
-	@GetMapping("/")
+	@GetMapping("/index")
 	public String index(Model model) {
 		model.addAttribute("rv", new Review());
 		model.addAttribute("reviews", repo.findAll());
@@ -50,21 +50,21 @@ public class SiteController {
 //        return new ModelAndView("site/index", Collections.singletonMap("reviews", repo.findAll()));
 //    }
 	//@RequestParam String reviewText
-	 @PostMapping ()
+	 @PostMapping ("/index")
 	    public String createReview(ModelMap model, @ModelAttribute("rv") @Valid Review rv, BindingResult result) {
 	if(result.hasErrors()) {
 		return "index";
 	}
 		 repo.save(new Review(rv.getReviewText(), new Date()));
 	 
-	        return "redirect:/";
+	        return "redirect:/index";
 	    }
 	 
 	 @GetMapping("/delete")
 		public String delete(ModelMap model, @RequestParam int id) {
 			repo.deleteById(id);
 			model.clear();
-			return "redirect:/";
+			return "redirect:/index";
 		}
 	 @GetMapping("/update")
 		public String update(ModelMap model, @RequestParam int id) {
@@ -79,6 +79,6 @@ public class SiteController {
 				return "index";
 			}
 		 repo.save(new Review(rv.getReviewText(), new Date()));
-			return "redirect:/";
+			return "redirect:/index";
 		}
 }

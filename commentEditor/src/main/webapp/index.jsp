@@ -19,10 +19,10 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="/login">Login <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/">Login <span class="sr-only">(current)</span></a>
       </li>
            <li class="nav-item active">
-        <a class="nav-link" href="/">Reviews <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/index">Reviews <span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>
