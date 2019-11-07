@@ -40,6 +40,10 @@ public class User implements UserDetails{
 		super();
 	}
 
+	public boolean isAdmin() {
+		return roles.contains(Role.ADMIN);
+	}
+	
 	public Long getId() {
 		return id;
 	}
