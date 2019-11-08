@@ -7,6 +7,7 @@ Using:
 Java 11
 Spring boot
 Spring security
+Spring boot mail
 Maven
 PostgreSQL
 Fremarker
