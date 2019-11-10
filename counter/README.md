@@ -2,7 +2,11 @@
 The program reads text files from the specified folder, exludes the words specified in a separate file, counts the words (case insensitive) and writes the results accordingly to the alphabetically generated files (A.txt, ..., Z.txt).
 
 ## Getting Started
-Java 11
+What you’ll need:
+    *JDK 1.11 or later
+    *Maven 3.2+
+
+
 The folder must contain .txt files with texts and the exlude.txt file with the words to be exluded.
 The program runs from the command line where the jar file is placed.
 * [counter.jar](https://github.com/SergejJerma/springsamples/blob/master/counter/counter.jar) 
