@@ -46,7 +46,7 @@ A.txt, B.txt, ..., Z.txt files are re-generated each time the program is started
 exlude_number.txt: if file exists  - the program rewrites it, if not - creates;
 
 # Example
-Folder C:/counter/ placed 4 text files with text generated on https://www.lipsum.com/:
+C:/counter/ placed 4 text files with text generated on https://www.lipsum.com/:
 * [sample1.txt](https://github.com/SergejJerma/springsamples/blob/master/counter/text_sample1.txt) - 200 words
 * [sample2.txt](https://github.com/SergejJerma/springsamples/blob/master/counter/text_sample2.txt) - 200 words
 * [sample3.txt](https://github.com/SergejJerma/springsamples/blob/master/counter/text_sample3.txt) - 200 words
