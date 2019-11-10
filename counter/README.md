@@ -3,8 +3,8 @@ The program reads text files from the specified folder, exludes the words specif
 
 ## Getting Started
 What you’ll need:
-    *JDK 1.11 or later
-    *Maven 3.2+
+    JDK 1.11 or later
+    Maven 3.2+
 
 
 The folder must contain .txt files with texts and the exlude.txt file with the words to be exluded.
