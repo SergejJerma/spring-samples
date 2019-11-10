@@ -16,7 +16,7 @@ import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.stream.Collectors;
 
-public class Counter extends Thread {
+public class WordsCounter extends Thread {
 	static int exludedWordsNumber;
 	static String folderPath = "";
 	static AtomicBoolean running = new AtomicBoolean(true);
@@ -27,9 +27,9 @@ public class Counter extends Thread {
 		System.out.println("Input path to text files e.g.: C:/counter/ or C:\\\\counter\\\\");
 		folderPath = scanner.next();
 
-		Counter counter = new Counter();
+		WordsCounter counter = new WordsCounter();
 
-		Counter thread = new Counter();
+		WordsCounter thread = new WordsCounter();
 		thread.start();
 
 		counter.writeDataToFiles(
