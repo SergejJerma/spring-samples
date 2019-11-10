@@ -21,17 +21,18 @@ The specified path does not exist, please read README.md file and run the progra
 or
 ```
 exlude.txt file not found, please read README.md file and run the program again```
-or
 
+```
+or
 ```
 Text files not found, please read README.md file and run the program again
 ```
 or
-
 ```
 Text files are empty, please read README.md file and run the program again
 ```
 and will be terminated.
+
 If you enter the correct path with text files  and exlude.txt, the program will read all the files, exlude the words from exlude.txt file, count all the remaining words (etc. and the number of words exluded) and save results to the files (A.txt, ..., Z.txt and exlude_number.txt) by the first letter of the word and will show the message:
 
 ```
@@ -45,13 +46,13 @@ A.txt, B.txt, ..., Z.txt files are re-generated each time the program is started
 exlude_number.txt: if file exists  - the program rewrites it, if not - creates;
 
 # Example
-Folder C: / counter / placed 4 text files with text generated on https://www.lipsum.com/:
+Folder C:/counter/ placed 4 text files with text generated on https://www.lipsum.com/:
 * [sample1.txt](https://github.com/SergejJerma/springsamples/blob/master/counter/text_sample1.txt) - 200 words
 * [sample2.txt](https://github.com/SergejJerma/springsamples/blob/master/counter/text_sample2.txt) - 200 words
 * [sample3.txt](https://github.com/SergejJerma/springsamples/blob/master/counter/text_sample3.txt) - 200 words
 * [sample4.txt](https://github.com/SergejJerma/springsamples/blob/master/counter/text_sample4.txt) - 200 words
 
-exlude.txt file content (10 words)
+exlude.txt file content (10 words):
 ```
 nisi auctor Morbi vitae amet vehicula ligula ut purus tempus
 ```
