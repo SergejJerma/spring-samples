@@ -14,8 +14,7 @@ The program runs from the command line where the jar file is placed.
 ```
 java -jar counter.jar
 ```
-When the application starts, the program will ask you to enter path of the folder with files:
-notes:  folder must contain .txt files with texts and the exlude.txt file with the words to be exluded.
+When the application starts, the program will ask you to enter path of the folder with files: (folder must contain .txt files with texts and the exlude.txt file with the words to be exluded.)
 ```
 Input path e.g.: C:/counter/ or C:\\counter\\
 ```
