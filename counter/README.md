@@ -5,15 +5,16 @@ The program reads text files from the specified folder, exludes the words specif
 What you’ll need:
     JDK 1.11 or later
   
+A programm has one class with main method.
+* [WordsCounter.java](https://github.com/SergejJerma/springsamples/blob/master/counter/src/main/java/counter/WordsCounter.java) 
 
 
-The folder must contain .txt files with texts and the exlude.txt file with the words to be exluded.
 The program runs from the command line where the jar file is placed.
 * [counter.jar](https://github.com/SergejJerma/springsamples/blob/master/counter/counter.jar) 
 ```
 java -jar counter.jar
 ```
-When the application starts, the program will ask you to enter path of the folder with files:
+When the application starts, the program will ask you to enter path of the folder with files: (folder must contain .txt files with texts and the exlude.txt file with the words to be exluded.)
 ```
 Input path e.g.: C:/counter/ or C:\\counter\\
 ```
