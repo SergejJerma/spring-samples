@@ -12,8 +12,8 @@
             </div>
             <div class="card-footer text-muted">
                  Author name: ${message.authorName} </br>
-               <a href="/message?id=${message.id}"/>link to comments</a>
-                
+              
+               <a type="button" class="btn btn-secondary" href="/message?id=${message.id}">Comment</a> 
                 <#if message.author.id == currentUserId>
                     <a class="btn btn-primary" href="/user-messages/${message.author.id}?message=${message.id}">
                         Edit
