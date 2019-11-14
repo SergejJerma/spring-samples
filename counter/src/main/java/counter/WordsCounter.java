@@ -43,7 +43,8 @@ public class WordsCounter extends Thread {
 	}
 
 	public void run() {
-
+		String [] mas;
+		String  mas1[];
 		try {
 			generateFilesByAlphabetLetter(folderPath);
 			running.set(false);
